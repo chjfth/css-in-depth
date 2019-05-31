@@ -1,0 +1,71 @@
+<!doctype html>
+<head>
+  <style>
+    :root {
+      box-sizing: border-box;
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: inherit;
+    }
+
+    body {
+      background-color: #eee;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    header {
+      color: #fff;
+      background-color: #0072b0;
+      border-radius: .5em;
+    }
+
+    .container {
+      display: table;
+      margin-left: -1.5em;
+      margin-right: -1.5em;
+/*    width: 100%;
+*/ 
+     border-spacing: 1.5em 0;
+    }
+
+    .main {
+      display: table-cell;
+      width: 70%;
+      background-color: #fff;
+      border-radius: .5em;
+    }
+
+    .sidebar {
+      display: table-cell;
+      width: 30%;
+      padding: 1.5em;
+      background-color: #fff;
+      border-radius: .5em;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Franklin Running Club</h1>
+  </header>
+    <div class="container">
+      <main class="main">
+        <h2>Come join us!</h2>
+        <p>
+          <b>Chj memo: If browser window is narrow, this html is OK. 
+          But if window is wide enough, this column will be less than 70% width.
+          </b>
+        </p>
+      </main>
+      <aside class="sidebar">
+        <div class="widget"></div>
+        <div class="widget"></div>
+        <div class="gizmo"></div>
+      </aside>
+    </div>
+</body>
