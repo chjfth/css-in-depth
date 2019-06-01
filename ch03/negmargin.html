@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+<style>
+#div1 {
+    background-color: #ffc;
+    width: 60%;
+    margin: auto;
+}
+
+.bluebg {
+    background-color: #cff;
+}
+.negmargin {
+    margin-left: -1em;
+    margin-right: -1em;
+}
+.red { color: red; }
+</style>
+</head>
+
+<body>
+  <div id="div1">
+    <p>cntr start</p>
+
+    <div class="bluebg">
+      <p>nested div 1</p>
+    </div>
+
+    <div class="bluebg negmargin">
+      <p>nested div 2</p>
+    </div>
+
+    <p>[ [ [ [ [<span class="negmargin red">cntr end</span>] ] ] ] ]</p>
+  </div>
+</body>
