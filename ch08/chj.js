@@ -1,7 +1,8 @@
 
 function show_winwidth() {
 	var ndInfo = document.querySelector('div').children[1];
-	ndInfo.textContent = "window.innerWidth="+window.innerWidth;
+	ndInfo.textContent = "window.innerWidth="+window.innerWidth 
+		+ " , body-width=" + document.body.offsetWidth;
 }
 
 document.addEventListener("DOMContentLoaded", function(){
