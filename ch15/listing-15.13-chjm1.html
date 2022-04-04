@@ -7,20 +7,28 @@
         border: 1px grey solid;
         margin: 2em;
       }
-
-      .row {
+      
+      .row-share {
         display: flex;
         justify-content: center;
-        perspective: 200px;
       }
 
-      .box {
+      .box-share {
         box-sizing: border-box;
         width: 150px;
         margin: 0 2em;
         padding: 60px 0;
         text-align: center;
         background-color: hsl(150, 50%, 40%);
+      }
+
+      .row-book {
+        display: flex;
+        justify-content: center;
+        perspective: 200px;
+      }
+
+      .box-book {
         transform: rotateX(30deg);
       }
 
@@ -31,30 +39,31 @@
       }
 
       .box-chjm1 {
-        box-sizing: border-box;
-        width: 150px;
-        margin: 0 2em;
-        padding: 60px 0;
-        text-align: center;
-        background-color: hsl(150, 50%, 40%);
         /* transform: rotateX(30deg); */
       }
     </style>
   </head>
   <body>
 
-    <div class="row divborder">
-      <div class="box">One</div>
-      <div class="box">Two</div>
-      <div class="box">Three</div>
-      <div class="box">Four</div>
+    <div class="row-share divborder">
+      <div class="box-share">One</div>
+      <div class="box-share">Two</div>
+      <div class="box-share">Three</div>
+      <div class="box-share">Four</div>
     </div>
 
-    <div class="row-chjm1 divborder">
-      <div class="box-chjm1">One</div>
-      <div class="box-chjm1">Two</div>
-      <div class="box-chjm1">Three</div>
-      <div class="box-chjm1">Four</div>
+    <div class="row-share row-book divborder">
+      <div class="box-share box-book">One</div>
+      <div class="box-share box-book">Two</div>
+      <div class="box-share box-book">Three</div>
+      <div class="box-share box-book">Four</div>
+    </div>
+
+    <div class="row-share row-chjm1 divborder">
+      <div class="box-share box-chjm1">One</div>
+      <div class="box-share box-chjm1">Two</div>
+      <div class="box-share box-chjm1">Three</div>
+      <div class="box-share box-chjm1">Four</div>
     </div>
 
   </body>
